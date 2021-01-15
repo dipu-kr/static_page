@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:o;
+    box-sizing: border-box;
+}
+.home-page{
+    background-image: url('../images/head.jpeg');
+    background-size: 100% 100%;
+    width:100%;
+    height:630px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: -140px;
+}
+a.logo:hover{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+}
+#collapsenavbar ul li a{
+    color:white;
+    padding:0 20px 0 20px;
+    border-radius: 10px;
+}
+#collapsenavbar ul li a:hover{
+    background-color: cadetblue;
+}
+.header1{
+    margin-top:190px;
+    padding-top: 160px;
+    
+}
+.header1 h2{
+    color:white;
+    font-size:40px;
+    padding-top: 30px;
+
+}
+.header1 h1{
+    color:white;
+    margin-top:20px;
+    font-size: 70px;
+}
+.header1 button{
+    margin-top:20px;
+    border-radius: 15px;
+}
+
+/* -------------------service---------------------*/
+.serviceclass{
+    margin:50px;
+    width:100%;
+    height:560px; 
+}
+.service1{
+    margin:50px;
+    padding: 40px;
+    box-sizing: border-box;
+    
+}
+.icon1 .btn{
+    padding:0 12px 0 12px;
+    border-radius: 5px;
+    margin:20px 0 8px 0;
+}
+.icon1 .btn:hover{
+    color:white;
+}
+.icon1{
+    padding:20px;
+    box-shadow: 2px 2px 3px gray;
+}
+.icon1 h4{
+    margin-top:25px;
+}
+.icon1 p{
+    text-align:justify;
+    padding:0 10px 0 10px;
+}
+.icon1:hover{
+    background-color: aquamarine;
+}
+.icon2{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+.fa-shopping-cart{
+    margin-top:18px;
+}
+.fa-desktop{
+    margin:20px 0 0 2px;
+}
+.fa-lock{
+    margin-top:20px;
+}
+
+/*------------------------------protfolio----------------------------*/
+.portfolio{
+    width: 100%;
+    height:800px;
+}
+.port1{
+    padding-top: 35px;
+}
+.port2{
+    margin-top: 15px;
+}
+.port1 .card img{
+    height:200px;
+}
+.port2 .card img{
+    height:200px;
+}
+
+/*------------------------our team------------------------*/
+.ourteam{
+    width:100%;
+    height:657px;
+}
+.ourteam1{
+    padding-top:80px;
+}
+.row figure img{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+}
+.ourteam2{
+    padding-top:70px;
+}
+figcaption h4{
+    margin-top:30px; 
+}
+figcaption p{
+    color:white;
+}
+
+/*----------footer----------------*/
+.footer{
+    height:50px;
+    background-color: green;
+}
+.footer h6{
+    line-height:50px;
+     font-weight: bold;
+}
+
+/*----------------responsive-------------------*/
+@media screen and (max-width:800px){
+    .header1 h1{
+        color:white;
+        margin-top:20px;
+        font-size: 30px;
+    }
+    .service-ab{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .container h1{
+        font-size: 32px;
+    }
+    .serviceclass{
+        margin:50px;
+        margin-top:30px;
+        width:100%;
+        height:auto; 
+    }
+    .service1{
+        margin:50px;
+        padding: 40px;
+        box-sizing: border-box;
+        
+    }
+    .portfolio{
+        width: 100%;
+        height:auto;
+    }
+    .ourteam{
+        width:100%;
+        height:auto;
+    }
+    .footer h6{
+        line-height:50px;
+         font-weight: bold;
+         font-size: 13px;
+    }
+
+}
+
